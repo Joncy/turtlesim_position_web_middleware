@@ -5,7 +5,7 @@ function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
 }
 
-window.onload =  function () {
+/*window.onload =  function () {
     var socket = io();
    
     document.getElementById('title').addEventListener("click", function() {
@@ -16,4 +16,4 @@ window.onload =  function () {
 
     	socket.emit('move', data);
     });
-}
+}*/	
